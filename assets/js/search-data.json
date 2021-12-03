@@ -18,7 +18,7 @@
   
       ,"page2": {
           "title": "",
-          "content": "home . publications and preprints . .       . Value A1 | Value B1 | Value C1 | . Value A2 | Value B2 | Value C2 | . Value A2 | Value B2 | Value C2 | .",
+          "content": "home . publications and preprints .     . | Value B1 | . Value A2 | Value B2 | . Value A2 | Value B2 | .",
           "url": "https://the-ninth-wave.github.io/papers/",
           "relUrl": "/",
           "date": ""
