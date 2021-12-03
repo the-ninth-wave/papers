@@ -40,7 +40,7 @@
   
       ,"page2": {
           "title": "",
-          "content": "publications and preprints . home . | The number of saddles of the spherical $p$-spin model | . | Data 4 | . | Data 6 | . | Data 8 | . | Data 10 | .",
+          "content": "publications and preprints . home . Header A Header B Header C . Value A1 | Value B1 | Value C1 | . Value A2 | Value B2 | Value C2 | . Value A2 | Value B2 | Value C2 | .",
           "url": "https://the-ninth-wave.github.io/papers/",
           "relUrl": "/",
           "date": ""
