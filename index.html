@@ -15,12 +15,20 @@ _publications and preprints_
 
 $\quad\quad$ with [Antonio Auffinger](https://sites.math.northwestern.edu/~auffing/)
 
-  We explore the structure of random, high-dimensional, non-convex energy landscapes associated to a class of spin glass models. Due to these characteristics, such landscapes pose difficult optimization problems, namely navigation of valleys and peaks towards a desired low altitude ($\equiv$ energy) region, using only the local features of the landscape to guide the navigation. 
+  We explore the structure of random, high-dimensional, non-convex energy landscapes associated to a class of spin glass models. Due to these characteristics, such landscapes pose difficult optimization problems, namely navigation of valleys and peaks towards a desired low altitude $\equiv$ energy region, using only the local features of the landscape to guide the navigation. 
 
   This type of optimization problem is relevant to chemistry and computer science. In the former case, one encounters energy landscapes associated to large molecules. Valleys of such landscapes are numerous, as they correspond to the ways the molecule can fold into a low energy, often functional state. In the latter case, there is active interest in the similarities between spin glass landscapes and loss landscapes of neural networks. There has been some debate about the nature of this similarity, though [recent work](https://arxiv.org/abs/2102.06740) of Baskerville, Granziol and Keating suggests possible connections through random matrix theory. 
 
-  In this paper, Tuca (Auffinger) and I built a novel large deviation principle for the spectra of pairs of correlated random matrices. These objects represent the curvature of the energy landscape at a pair of critical points, such as two valleys, or a valley and a mountain-pass (a 'saddle point'). Using this principle, we develop methods towards understanding the structure of the bridges connecting valleys of the landscape. In the ML context, this kind of information can be used to better navigate with gradient descent. 
+  In this paper, Tuca (Auffinger) and I built a novel large deviation principle for the spectra of pairs of correlated random matrices. These objects represent the curvature of the energy landscape at a pair of critical points, such as two valleys, or a valley and a mountain-pass (a _saddle point_). Using this principle, we develop methods towards understanding the structure of the bridges connecting valleys of the landscape. In the ML context, this kind of information can be used to better navigate with gradient descent. 
 
+|----------|
+| <a href="https://arxiv.org/abs/2007.09269"><img src="freezing_sq.jpg" width="250" height="250" /> </a> |
+| Dynamical freezing in a spin glass system with logarithmic correlations |
 
+$\quad\quad$ with [Aser Cortines](http://user.math.uzh.ch/cortines/) and [Oren Louidor](https://ie.technion.ac.il/~olouidor/)
 
+The paper considers low-temperature dynamics of a disordered system. This system is characterized by an energy landscape with many peaks and valleys. The dynamics studied are those of a landscape explorer. The exploration is governed by a temperature-like parameter, which effectively sets the preferred elevation of the explorer of the landscape.
 
+When the temperature is low enough, the system 'freezes'. We study the effect of this glass-like phase transition on the dynamics. Below the freezing point, the preferred elevation set by temperature is far below the lowest valley of the landscape. Consequently, in the correct reference frame, the dynamics appear to flicker between the lowest valleys of the landscape. The main contribution of our paper is to make this picture rigorous.
+
+A key input to our argument was a recent series of works by Biskup and Louidor, who gave an extremely precise description of the structure surrounding peaks and valleys of the landscape. To describe the dynamics as the system size grows, we relied on ideas from the literature on _trap models_, which are abstractions of the low-temperature dynamics described above.
