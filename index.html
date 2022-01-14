@@ -19,7 +19,7 @@ $\quad\quad$ with [Antonio Auffinger](https://sites.math.northwestern.edu/~auffi
 
   This type of optimization problem is relevant to chemistry and computer science. In the former case, one encounters energy landscapes associated to large molecules. Valleys of such landscapes are numerous, as they correspond to the ways the molecule can fold into a low energy, often functional state. In the latter case, there is active interest in the similarities between spin glass landscapes and loss landscapes of neural networks. There has been some debate about the nature of this similarity, though [recent work](https://arxiv.org/abs/2102.06740) of Baskerville, Granziol and Keating suggests possible connections through random matrix theory. 
 
-  In this paper, Tuca (Auffinger) and I built a novel large deviation principle for the spectra of pairs of correlated random matrices. These objects represent the curvature of the energy landscape at a pair of critical points, such as two valleys, or a valley and a mountain-pass (a _saddle point_). Using this principle, we develop methods towards understanding the structure of the bridges connecting valleys of the landscape. In the ML context, this kind of information can be used to better navigate with gradient descent. 
+  In this paper, Tuca (Auffinger) and I built a novel large deviation principle for the spectra of pairs of correlated random matrices. These objects represent the curvature of the energy landscape at a pair of critical points, such as two valleys, or a valley and a mountain-pass (a _saddle point_). Using this principle, we develop methods towards understanding the structure of the bridges connecting valleys of the landscape, crucial information for studying dynamics.
 
 |----------|
 | <a href="https://projecteuclid.org/journals/electronic-journal-of-probability/volume-23/issue-none/Dynamical-freezing-in-a-spin-glass-system-with-logarithmic-correlations/10.1214/18-EJP181.full"><img src="freezing_sq.jpg" width="250" height="250" /> </a> |
@@ -29,9 +29,9 @@ $\quad\quad$ with [Aser Cortines](http://user.math.uzh.ch/cortines/) and [Oren L
 
 The paper considers low-temperature dynamics of a disordered system. This system is characterized by an energy landscape with many peaks and valleys. The dynamics studied are those of a landscape explorer. The exploration is governed by a temperature-like parameter, which effectively sets the preferred elevation of the explorer of the landscape.
 
-When the temperature is low enough, the system 'freezes'. We study the effect of this glass-like phase transition on the dynamics. Below the freezing point, the preferred elevation set by temperature is far below the lowest valley of the landscape. Consequently, in the correct reference frame, the dynamics appear to flicker between the lowest valleys of the landscape. The main contribution of our paper is to make this picture rigorous.
+When the temperature is low enough, the system 'freezes'. We study the effect of this glass-like phase transition on the dynamics. Below the freezing point, the preferred elevation set by temperature is far below the lowest valley of the landscape. Consequently, in the correct reference frame, the dynamics appear to teleport between the lowest valleys of the landscape after waiting a random amount of time, on average waiting longer in the deepest valleys. The main contribution of our paper is to make this picture rigorous.
 
-A key input to our argument was a recent series of works by Biskup and Louidor, who gave an extremely precise description of the structure surrounding peaks and valleys of the landscape. To describe the dynamics as the system size grows, we relied on ideas from the literature on _trap models_, which are abstractions of the low-temperature dynamics described above.
+A key input to our argument was a recent series of works by Biskup and Louidor, who gave an extremely precise description of the structure surrounding peaks and valleys of the landscape. To describe the dynamics as the system size grows, we relied on ideas from the literature on [trap models](http://www.scholarpedia.org/article/Glassy_dynamics), abstractions of the low-temperature dynamics described just above.
 
 
 |----------|
@@ -40,9 +40,9 @@ A key input to our argument was a recent series of works by Biskup and Louidor, 
 
 A smaller component of my PhD thesis. As below, it builds on work of Biskup et al., changing the geometric constraints on the model.
 
-The objects of study are two-dimensional, random 'droplets' confined to a large box. The nature of this confinement results in droplets with a preference to adhere to the box boundary.
+The objects of study are two-dimensional, random 'droplets' confined to a large box. The nature of this confinement results in droplets with a preference to adhere to the box boundary. Many ideas in the Wulff construction, a toolkit central to my thesis, could be used with some modification to obtain results analogous to those in the main component of my thesis, described just below.
 
-The Wulff construction is a mathematical toolkit, one central to my thesis. Many ideas in the Wulff construction could be used, with some modification, to obtain results analogous to those in the main component of my thesis, described next.
+The Wulff construction is a mathematical toolkit, one central to my thesis. 
 
 |----------|
 | <a href="https://projecteuclid.org/journals/annales-de-linstitut-henri-poincare-probabilites-et-statistiques/volume-54/issue-4/Isoperimetry-in-supercritical-bond-percolation-in-dimensions-three-and-higher/10.1214/17-AIHP866.full"><img src="iso_sq.jpg" width="250" height="250" /> </a> |
